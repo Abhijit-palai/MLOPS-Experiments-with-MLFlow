@@ -1,3 +1,5 @@
+# This notebook for run MLflow without any remote access. Just basics of MLflow.
+
 import mlflow 
 import mlflow.sklearn
 from sklearn.datasets import load_wine
