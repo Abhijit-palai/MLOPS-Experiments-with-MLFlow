@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/ASUS/OneDrive/Pictures/Desktop/coding world/MLOps_Vikash_dash/MLOPS-Experiments-with-MLFlow/mlruns/1/models/m-f8faf458805f434087493fd33b5bfa3a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.16.0
+model_id: m-f8faf458805f434087493fd33b5bfa3a
+model_size_bytes: 1993545
+model_uuid: m-f8faf458805f434087493fd33b5bfa3a
+prompts: null
+run_id: 214c21c2befc432999175ef6e3fa6383
+utc_time_created: '2026-10-24 14:16:17.923451'
